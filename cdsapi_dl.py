@@ -13,6 +13,6 @@ request = {
     'pressure_level': ['500'],
     'data_format': 'netcdf4',
 }
-target = 'download.grib'
+target = 'download.nc'
 
 client.retrieve(dataset, request, target)
